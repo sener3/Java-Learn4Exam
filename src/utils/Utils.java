@@ -17,6 +17,8 @@ import interfaces.ElectronicDevices;
 import models.Phone;
 
 public class Utils {
+	public static final String file = "C:/Users/AliSener/phones.txt";
+	
 	private static List<ElectronicDevices> electronicDevices = new ArrayList<ElectronicDevices>();
 	
 	public static List<ElectronicDevices> createPhones(int n) {

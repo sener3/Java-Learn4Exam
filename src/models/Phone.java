@@ -12,7 +12,7 @@ public class Phone implements ElectronicDevices, Serializable, Cloneable{
 	private static final long serialVersionUID = 1L;
 
 	public Phone() {
-		this.weight = 0;
+		this.weight = 10;
 		this.diagonal = 0;
 		this.producer = "";
 	}
